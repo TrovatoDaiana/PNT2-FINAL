@@ -1,6 +1,7 @@
 # Final
 
-This template should help get you started developing with Vue 3 in Vite.
+Trovato Daiana, comision YA 2D.
+La app cuenta con una navbar con 2 componentes, 1 que contiene el conversor de dolares y el otro que contiene una tabla con las preguntas y sus respectivas respuestas.
 
 ## Recommended IDE Setup
 
