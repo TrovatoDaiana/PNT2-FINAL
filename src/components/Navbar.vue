@@ -9,7 +9,7 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <RouterLink class="nav-link" to="/index">Indice</RouterLink>
+                        <RouterLink class="nav-link" to="/conversor">Conversor</RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link" to="/preguntas">Preguntas</RouterLink>

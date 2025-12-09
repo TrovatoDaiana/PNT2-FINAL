@@ -1,19 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Index from './components/index.vue'
+import Converson from './components/Converson.vue'
 import Preguntas from './components/Preguntas.vue'
 
 
 const routes = [
     //ruta raiz por defecto
-  { path: '/', redirect: '/index' },
+  { path: '/', redirect: '/conversor' },
 
     //rutas activas de los componentes
-  { path: '/index', component: Index},
+  { path: '/conversor', component: Converson},
   { path: '/preguntas', component: Preguntas},
 
   //rutas no definidas o existentes
-  { path: '/:pathMatch(.*)*', redirect: '/index' }
+  { path: '/:pathMatch(.*)*', redirect: '/conversor' }
 ]
 
 const router = createRouter({
