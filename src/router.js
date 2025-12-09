@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Index from './components/index.vue'
+import Preguntas from './components/Preguntas.vue'
 
 
 const routes = [
@@ -9,6 +10,7 @@ const routes = [
 
     //rutas activas de los componentes
   { path: '/index', component: Index},
+  { path: '/preguntas', component: Preguntas},
 
   //rutas no definidas o existentes
   { path: '/:pathMatch(.*)*', redirect: '/index' }
